@@ -45,7 +45,7 @@ systemctl restart tgt
 Windows iscsi initiator
 
 Inline-style: 
-![alt text](https://github.com/redmondmj/UbuntuiSCSITarget/images/iSCSIInitiator.png "Windows iSCSI Initiator")
+![alt text](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/iSCSIInitiator.PNG "Windows iSCSI Initiator")
 
 discovery - IP
 
