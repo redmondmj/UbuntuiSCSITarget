@@ -6,6 +6,9 @@ future home of an Ubunti iSCSI target bash script.
 
 ## VM Notes:
 Add extra drives
+
+![VM Disks](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/addDisk.PNG "Add disks to VM")
+
 Set static IP (optional)
 Checkpoint!
 
@@ -44,7 +47,6 @@ systemctl restart tgt
 
 Windows iscsi initiator
 
-Inline-style: 
 ![alt text](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/iSCSIInitiator.PNG "Windows iSCSI Initiator")
 
 discovery - IP
