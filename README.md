@@ -29,7 +29,7 @@ future home of an Ubunti iSCSI target bash script.
 4. List available disks: `sudo lshw -class disk`
     * make note of your storage devices for your luns
 5. Install the server: `sudo apt install tgt`
-6. Verify: `systemctl status tgt`
+6. Verify: `sudo systemctl status tgt`
 
 ## Configure your LUN
 1. `sudo nano /etc/tgt/conf.d/iscsi.conf`
@@ -42,7 +42,8 @@ future home of an Ubunti iSCSI target bash script.
     #outgoinguser iscsi-target secretpass
 </target>
 ```
-`systemctl restart tgt`
+2. Restart the service: `sudo systemctl restart tgt`
+3. Verify your config: `sudo tgtadm --mode target --op show`
 
 
 ## Connect!!!
@@ -55,6 +56,6 @@ future home of an Ubunti iSCSI target bash script.
 
 3. Connect to your LUN!
 
-4. Manager Your new Storage with Disk Management:
+4. Manage Your new Storage with Disk Management:
 
 ![Disk](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/diskManagement.PNG "Disk Management")
