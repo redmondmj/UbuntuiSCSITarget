@@ -1,6 +1,11 @@
 # UbuntuiSCSITarget
 Future home of an Ubuntu iSCSI target bash script. For now... documentation on a manual installation and configuration.
+This documentation assumes a few things:
 
+* You have a Windows Host with network acccess to guest VM
+* You can install Ubuntu Server on the guest VM
+* IP: 172.16.144.100 (replace with your own)
+* Username: itstudent (replace with your own)
 
 # Ubuntu iSCSI Target documentation
 
@@ -27,8 +32,8 @@ NOTE: OS Installation is not covered. Default installation will suffice. If offe
 2. (optional) `sudo apt upgrade`
 3. Get connected: `sudo apt install openssh-server`
     * Now Connect via SSH!!!!
-    * From Windows HOST use Putty or Powershell
-    ``` ssh itstudent@172.16.144.100 ```
+    * Check your IP ```ip a```
+    * From Windows HOST use Putty or Powershell ``` ssh itstudent@172.16.144.100 ```
 4. List available disks: `sudo lshw -class disk`
     * make note of your storage devices for your luns
 5. Install the server: `sudo apt install tgt`
