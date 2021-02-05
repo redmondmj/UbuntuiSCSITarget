@@ -1,5 +1,5 @@
 # UbuntuiSCSITarget
-future home of an Ubunti iSCSI target bash script.
+Future home of an Ubuntu iSCSI target bash script. For now... documentation on a manual installation and configuration.
 
 
 # Ubuntu iSCSI Target documentation
