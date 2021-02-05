@@ -14,7 +14,7 @@ Future home of an Ubuntu iSCSI target bash script. For now... documentation on a
 ![VM Disks](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/addDisk.PNG "Add disks to VM")
 
 
-![VM Disks](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/Disks.PNG"Check disks to VM")
+![VM Disks](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/Disks.PNG "Check disks to VM")
 
 3. Set static IP (optional)
 4. Create a Checkpoint!
