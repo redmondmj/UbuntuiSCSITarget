@@ -21,11 +21,14 @@ Future home of an Ubuntu iSCSI target bash script. For now... documentation on a
 
 
 ## Installation
+NOTE: OS Installation is not covered. Default installation will suffice. If offered, choose to install packages for OpenSSH.
 
 1. Get current: `sudo apt update`
 2. (optional) `sudo apt upgrade`
 3. Get connected: `sudo apt install openssh-server`
     * Now Connect via SSH!!!!
+    * From Windows HOST use Putty or Powershell
+    ``` ssh itstudent@172.16.144.100 ```
 4. List available disks: `sudo lshw -class disk`
     * make note of your storage devices for your luns
 5. Install the server: `sudo apt install tgt`
