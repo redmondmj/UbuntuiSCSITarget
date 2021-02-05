@@ -26,7 +26,7 @@ This documentation assumes a few things:
 
 
 ## Installation
-NOTE: OS Installation is not covered. Default installation will suffice. If offered, choose to install packages for OpenSSH.
+NOTE: OS Installation is not covered. Default installation will suffice. Network Config is up to you, you can set a static IP (if you know one that will work) or just use DHCP(if available). If offered, choose to install packages for OpenSSH (just convenient, you can skip step 3).
 
 1. Get current: `sudo apt update`
 2. (optional) `sudo apt upgrade`
