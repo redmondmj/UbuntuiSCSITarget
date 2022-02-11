@@ -38,6 +38,7 @@ NOTE: OS Installation is not covered. Default installation will suffice. Network
     * make note of your storage devices for your luns
 5. Install the server: `sudo apt install tgt`
 6. Verify: `sudo systemctl status tgt`
+7. To start (if needed): `sudo systemctl start tgt`
 
 ## Configure your LUN
 1. `sudo nano /etc/tgt/conf.d/iscsi.conf`
