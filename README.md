@@ -10,7 +10,9 @@ This documentation assumes a few things:
 # Ubuntu iSCSI Target documentation
 
 ## Hyper-V VM Notes:
-1. Rmemeber to disable secure boot in order to install the OS
+1. Generation 2 VM is reccomended.
+2. Your VM will need internet access to install required packages.
+3. Remember to disable secure boot in order to install the OS
 
 ![Disable Secure Boot](https://github.com/redmondmj/UbuntuiSCSITarget/blob/master/images/secureBoot.PNG "Disable Secure Boot")
 
